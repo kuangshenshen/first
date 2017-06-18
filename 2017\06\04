@@ -1,0 +1,105 @@
+<!--端午节作业-->
+<!--duanwu.html-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>端午节</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/duanwu.css">
+</head>
+<body>
+	<!--logo-->
+	<span class="logo">
+	<img src="images/logo.jpg" alt="logo" width="120px"
+	 height="80px">
+	 <input type="text"><input type="submit" value="搜索">
+	</span>
+	<!--导航栏-->
+	<div class="manu">
+		<ul>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">起源考究</a></li>
+			<li><a href="#">民间习俗</a></li>
+			<li><a href="#">文学记述</a></li>
+			<li><a href="#">传承发展</a></li>
+		</ul>
+	</div>
+	<!--banner-->
+	<div class="banner" align="center">
+		<img src="images/banner.jpg" alt="banner">
+	</div>
+	<div class="main" background="images/bg.jpg">
+		<div class="m"></div>
+		<div class="n">
+			<h1 align="center">端午节</h1>
+			<p>端午节，为每年农历五月初五。据《荆楚岁时记》记载，因仲夏登高，顺阳在上，五月是仲夏，它的第一个午日正是登高顺阳好天气之日，故五月初五亦称为“端阳节”。此外端午节还称“午日节、五月节、龙舟节、浴兰节、诗人节”等。[1]  端午节是流行于中国以及汉字文化圈诸国的传统文化节日。</p>
+			<p>端午节起源于中国，最初为古代百越地区（长江中下游及以南一带）崇拜龙图腾的部族举行图腾祭祀的节日，百越之地春秋之前有在农历五月初五以龙舟竞渡形式举行部落图腾祭祀的习俗。后因战国时期的楚国（今湖北）诗人屈原在该日抱石跳汨罗江自尽，统治者为树立忠君爱国标签将端午作为纪念屈原的节日；部分地区也有纪念伍子胥、曹娥等说法。</p>
+			<p>端午节与春节、清明节、中秋节并称为中国民间的四大传统节日。[2]  自古以来端午节便有划龙舟及食粽等节日活动。自2008年起，端午节被列为国家法定节假日。2006年5月，国务院将其列入首批国家级非物质文化遗产名录；2009年9月，联合国教科文组织正式审议并批准中国端午节列入世界非物质文化遗产，成为中国首个入选世界非遗的节日。</p>
+		</div>
+	</div>
+	<div class="list">
+		<div class="list_ing">
+			<img src="images/list.jpg" width="225" height="250px">
+			<h3>龙舟节</h3>
+		</div>
+		<div class="list_ing">
+			<img src="images/list1.jpg" width="225" height="250px">
+			<h3>端阳节</h3>
+		</div>
+		<div class="list_ing">
+			<img src="images/list2.jpg" width="225" height="250px">
+			<h3>重午节</h3>
+		</div>
+		<div class="list_ing">
+			<img src="images/list3.jpg" width="225" height="250px">
+			<h3>女儿节</h3>
+		</div>
+		<div class="list_ing">
+			<img src="images/list4.jpg" width="225" height="250px">
+			<h3>端午节</h3>
+		</div>
+		<div class="list_ing">
+			<img src="images/list5.jpg" width="225" height="250px">
+			<h3>解粽节</h3>
+		</div>
+		<div class="list_ing">
+			<img src="images/list6.jpg" width="225" height="250px">
+			<h3>浴兰节</h3>
+		</div>
+		<div class="list_ing">
+			<img src="images/list7.jpg" width="225" height="250px">
+			<h3>菖蒲节</h3>
+		</div>
+	</div>
+	<!--页脚-->
+	<div class="footer">
+	<h3>Copyright &copy; 2008-2016 http://www.***.com All Rights Reserved 网站备案：冀ICP备00000000号</h3>
+	</div>
+</body>
+</html>
+
+<!--duanwu.css-->
+body{font:12px/22px "宋体";}
+ul{list-style: none}
+p{text-indent: 2em}
+a:link{text-decoration: none;color: #333}
+a:hover{text-decoration: underline}
+.logo{width:100px;margin: 0px auto;}
+.manu{width: 100%;height: 40px;background: #269f70}
+.manu ul{width: 1000px;margin: 0px auto}
+.manu ul li{float: left;;width: 128px;line-height: 40px}
+.manu a{font-size: 16px;color: #fff}
+.banner,.banner img{width: 100%;height: 400px;}
+.main{width:1050px;margin: 0px auto;}
+.m{ float: left;color: #f0f;border:3px solid #aaa;
+	background-image:url(images/bgi.jpg);
+	width: 350px;height: 400px;}
+.n{width:650px;height: 400px;font-size:16px; float: left;
+	border: 3px solid #aaa;background-image:url(images/bg.jpg);}
+.list{width: 1050px;margin: 0px auto;border:3px solid #aaa; }
+.list_ing{width: 240px;height: 300px;border:3px solid #aaa;
+	float: left;margin: 5px;text-align:center;}
+.footer{width: 100%;height: 80px;font: 40px;background-color: #000;
+	color: #fff;float:right;font-size:16px;
+	text-align: center;}
