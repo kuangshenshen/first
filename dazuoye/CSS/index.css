@@ -1,0 +1,26 @@
+#souye{color: #ff0}
+.logo{width:100px;margin: 0px auto;text-align: left;}
+.manu{width: 100%;height: 40px;background: #269f70}
+.manu ul{width:80%;margin: 0px auto}
+.manu ul li{float: left;;width: 128px;line-height: 40px}
+.header{width: 100%; }
+img{width:180px;height:160px}
+.pu{line-height: 2.5em}
+.int{background-color: #f00;line-height: 2.5em}
+.manu a{font-size: 16px;color: #fff}
+
+.banner,.banner img{width: 100%;height: 400px;}
+.main{width:1024px;margin: 0px auto;}
+.m{ float: left;color: #f0f;border:3px solid #aaa;
+	background-image:url(../images/bgi.jpg);
+	width: 350px;height: 400px;}
+.n{width:650px;height: 400px;font-size:16px; float: left;
+	border: 3px solid #aaa;background-image:url(../images/bg.jpg);
+	background-repeat: no-repeat;background-size: 100% 100%}
+.list{width: 1024px;margin: 0px auto;border:3px solid #aaa; }
+.list_ing{width: 240px;height: 350px;border:3px solid #aaa;
+	float: left;margin: 5px;text-align: center;}
+
+.footer{width: 100%;height: 80px;font: 40px;background-color: #000;
+	color: #fff;float:right;font-size:16px;
+	text-align: center;}

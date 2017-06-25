@@ -1,0 +1,25 @@
+img{border:0px;}
+a:link{color:blue;font-size: 16px;}
+a:hover{text-decoration: underline;color: #f00}
+body{font:12px/22px "宋体";}
+.logo{width:100px;margin: 0px auto;text-align: left;}
+.manu{width: 100%;height: 40px;background: #269f70}
+.manu ul{width:80%;margin: 0px auto;list-style: none}
+.manu ul li{float: left;;width: 128px;line-height: 40px}
+.manu ul li a{text-decoration: none;} 
+.manu ul li a:hover{text-decoration: underline;color: #f00} 
+.header{width: 100%; }
+img{width:180px;height:160px}
+.pu{line-height: 2.5em}
+.int{background-color: #f00;line-height: 2.5em}
+.manu a{font-size: 16px;color: #fff}
+p{font-size: 16px}
+.main{width:1024px;margin: 0px auto;}
+.left{width: 400px;height: auto;float: left;}
+.right{width: 600px;height: auto;}
+.right img{width: 200px;height: auto;}
+p img{width: 100%}
+
+.footer{width: 100%;height: 80px;font: 40px;background-color: #000;
+	color: #fff;float:right;font-size:16px;
+	text-align: center;}
